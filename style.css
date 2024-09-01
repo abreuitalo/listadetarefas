@@ -59,6 +59,7 @@ h1 {
   padding: 10px;
   font-size: 22px;
   border-radius: 4px;
+  margin: 7px 0;
 }
 
 .tarefas li:hover {
