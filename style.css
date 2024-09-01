@@ -90,3 +90,25 @@ h1 {
   transition: all 0.7s;
   border-radius: 2px;
 }
+
+@media (max-width: 450px) {
+  .container-child {
+    margin: 50px 20px;
+  }
+
+  body {
+    background: black;
+  }
+
+  #btn-add {
+    padding: 0 10px;
+  }
+
+  .tarefas li:hover {
+    background: black;
+  }
+
+  .swal-modal {
+    width: 350px;
+  }
+}
