@@ -22,5 +22,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 Através do ambiente desenvolvido, armezene suas listas de afazeres para acompanhamento e realização! <br>
-
-<!-- Acesse através de <a href="http://34.16.209.39:81" target="_blank">Lista de Tarefas</a> -->
+Acesse através de <a href="https://listadetarefas-two.vercel.app/">Lista de Tarefas</a>
