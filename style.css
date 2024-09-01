@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #001539;
+}
+
+h1 {
+  margin-top: 5%;
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+}
+
+.container-child {
+  background: #fff;
+  padding: 30px;
+  margin: 50px auto;
+  max-width: 500px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.form {
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input[type="text"] {
+  height: 40px;
+  padding: 0 20px;
+  font-size: 20px;
+  outline: none;
+  border: 1px solid #ccc;
+  min-width: 80%;
+}
+
+.form button[type="submit"] {
+  border: none;
+  height: 42px;
+  width: 100px;
+  background: #f04c64;
+  color: #fff;
+  font-weight: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.tarefas li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 22px;
+  border-radius: 4px;
+}
+
+.tarefas li:hover {
+  background: #001539;
+  color: #fff;
+  transition: all 0.9s;
+  border-radius: 2px;
+}
+
+.tarefas li button.delete {
+  border: 0;
+}
+
+.tarefas li .trash {
+  color: white;
+  font-size: 15px;
+  padding: 5px 6px;
+  background: #f04c64;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.tarefas li button {
+  border-radius: 2px;
+}
+
+.tarefas .trash:hover {
+  color: black;
+  transition: all 0.7s;
+  border-radius: 2px;
+}
