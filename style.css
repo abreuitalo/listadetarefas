@@ -107,6 +107,7 @@ h1 {
   .tarefas li {
     background: black;
     color: white;
+    margin: 7px 0;
   }
 
   .tarefas li:hover {
