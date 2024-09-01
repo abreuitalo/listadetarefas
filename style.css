@@ -104,6 +104,11 @@ h1 {
     padding: 0 10px;
   }
 
+  .tarefas li {
+    background: black;
+    color: white;
+  }
+
   .tarefas li:hover {
     background: black;
   }
